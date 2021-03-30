@@ -83,12 +83,11 @@ public class CalcSoma extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSomaActionPerformed
-       // Scanner teclado = new Scanner(System.in);
-        int n1 =0; int n2 =0; int soma=0;
+     
         
-        n1= Integer.parseInt(txtN1.getText());
-        n2= Integer.parseInt(txtN2.getText());
-        soma = n1 +n2;
+        int n1= Integer.parseInt(txtN1.getText());
+        int n2= Integer.parseInt(txtN2.getText());
+        int soma = n1 +n2;
         lblResultado.setText(Integer.toString(soma));
        lblResultado.setForeground(Color.blue);
         
