@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author micha
+ * @author Michael Coitim
  */
 public class CalcSoma extends javax.swing.JFrame {
 
