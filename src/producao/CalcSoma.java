@@ -83,7 +83,10 @@ public class CalcSoma extends javax.swing.JFrame {
 
     private void btnSomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSomaActionPerformed
        // Scanner teclado = new Scanner(System.in);
-        int n1 =0; int n2 =0;
+        int n1 =0; int n2 =0; int soma=0;
+        
+        n1= Integer.parseInt(txtN1.getText());
+        n2= Integer.parseInt(txtN2.getText());
         
     }//GEN-LAST:event_btnSomaActionPerformed
 
