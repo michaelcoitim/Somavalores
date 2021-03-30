@@ -5,6 +5,7 @@
  */
 package producao;
 
+import java.awt.Color;
 import java.util.Scanner;
 
 /**
@@ -87,6 +88,9 @@ public class CalcSoma extends javax.swing.JFrame {
         
         n1= Integer.parseInt(txtN1.getText());
         n2= Integer.parseInt(txtN2.getText());
+        soma = n1 +n2;
+        lblResultado.setText(Integer.toString(soma));
+       lblResultado.setForeground(Color.blue);
         
     }//GEN-LAST:event_btnSomaActionPerformed
 
